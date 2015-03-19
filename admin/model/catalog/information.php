@@ -1,7 +1,7 @@
 <?php
 class ModelCatalogInformation extends Model {
 	public function addInformation($data) {
-		$this->db->query("INSERT INTO " . DB_PREFIX . "information SET sort_order = '" . (int)$data['sort_order'] . "', bottom = '" . (isset($data['bottom']) ? (int)$data['bottom'] : 0) . "', , top = '" . (isset($data['top']) ? (int)$data['top'] : 0) . "' status = '" . (int)$data['status'] . "'");
+		$this->db->query("INSERT INTO " . DB_PREFIX . "information SET sort_order = '" . (int)$data['sort_order'] . "', bottom = '" . (isset($data['bottom']) ? (int)$data['bottom'] : 0) . "', top = '" . (isset($data['top']) ? (int)$data['top'] : 0) . "', status = '" . (int)$data['status'] . "'");
 
 		$information_id = $this->db->getLastId(); 
 
@@ -24,7 +24,7 @@ class ModelCatalogInformation extends Model {
 		}
 
 		if ($data['keyword']) {
-			$this->db->query("INSERT INTO " . DB_PREFIX . "url_alias SET query = 'information_id=" . (int)$information_id . "', keyword = '" . $this->db->escape($data['keyword']) . "'");
+			$this->db->query("INSERT INTO " . DB_PREFIX . "url_alias SET query = 'information_id=" . (int)$information_id . "', keyword = '" . $this->db->escape($data['keyword']) . "'"); 
 		}
 
 		$this->cache->delete('information');

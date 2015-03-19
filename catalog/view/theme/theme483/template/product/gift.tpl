@@ -44,7 +44,7 @@
 		<h1><?php echo $heading_title;?> <div style="color:#84BF49; display:inline; margin-left: 5px;  text-transform: capitalize;"><?php echo '(Worth: $' . $price . ')'; ?></div></h2>
 	  <div class="description-add">
 		<div class="product-section">
-			<div class="options-add">
+			<div class="options-add"> 
 
 			<!--hidden fields-->
 			<input type="hidden" name="cardgift_id" value="<?php echo $cardgift_id; ?>"/>

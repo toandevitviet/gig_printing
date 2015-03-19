@@ -86,7 +86,7 @@
             <ul class="row">
                 <?php foreach ($gifts as $gift) : ?>
                 <?php 
-                if (($gift['price'] < 200) && ($gift['gift'] == 1 ) ) { ?>
+                if ($gift['gift'] == 1 ) { ?>
                 <li class="first-in-line last_line col-sm-2 custom-product-more">
                   <div class="padding bgitems">
                     <!-- Product image -->
@@ -109,7 +109,7 @@
                       <?php if ($gift['price']) { ?>
                         <div class="product_price">
                           <div class="price_custom_gif">
-                             <?php echo $gift['price']; ?>
+                              <div style="color:#84BF49; display:inline; font-size: 16px; text-transform: capitalize;"><?php echo '(Worth: $' . $gift['price'] . ')'; ?></div>
                           </div>
                         </div>
                         <?php } ?>
@@ -145,7 +145,7 @@
             <ul class="row">
                 <?php foreach ($gifts as $gift) : ?>
                 <?php 
-                if (($gift['price'] < 400) && ($gift['gift'] == 2 ) ) { ?>
+                if ($gift['gift'] == 2 ) { ?>
                 <li class="first-in-line last_line col-sm-2 custom-product-more">
                   <div class="padding bgitems">
                     <!-- Product image -->
@@ -168,7 +168,7 @@
                       <?php if ($gift['price']) { ?>
                         <div class="product_price">
                           <div class="price_custom_gif">
-                             <?php echo $gift['price']; ?>
+                             <div style="color:#84BF49; display:inline; font-size: 16px; text-transform: capitalize;"><?php echo '(Worth: $' . $gift['price'] . ')'; ?></div>
                           </div>
                         </div>
                         <?php } ?>
@@ -205,7 +205,7 @@
             <ul class="row">
                 <?php foreach ($gifts as $gift) : ?>
                 <?php 
-                if (($gift['price'] < 600) && ($gift['gift'] == 3 ) ) { ?>
+                if ($gift['gift'] == 3 ) { ?>
                 <li class="first-in-line last_line col-sm-2 custom-product-more">
                   <div class="padding bgitems">
                     <!-- Product image -->
@@ -228,7 +228,7 @@
                       <?php if ($gift['price']) { ?>
                         <div class="product_price">
                           <div class="price_custom_gif">
-                             <?php echo $gift['price']; ?>
+                             <div style="color:#84BF49; display:inline; font-size: 16px; text-transform: capitalize;"><?php echo '(Worth: $' . $gift['price'] . ')'; ?></div>
                           </div>
                         </div>
                         <?php } ?>
@@ -264,7 +264,7 @@
             <ul class="row">
                 <?php foreach ($gifts as $gift) : ?>
                 <?php 
-                if (($gift['price'] < 800) && ($gift['gift'] == 4 ) ) { ?>
+                if ($gift['gift'] == 4 ) { ?>
                 <li class="first-in-line last_line col-sm-2 custom-product-more">
                   <div class="padding bgitems">
                     <!-- Product image -->
@@ -287,7 +287,7 @@
                       <?php if ($gift['price']) { ?>
                         <div class="product_price">
                           <div class="price_custom_gif">
-                             <?php echo $gift['price']; ?>
+                             <div style="color:#84BF49; display:inline; font-size: 16px; text-transform: capitalize;"><?php echo '(Worth: $' . $gift['price'] . ')'; ?></div>
                           </div>
                         </div>
                         <?php } ?>
@@ -324,7 +324,7 @@
             <ul class="row">
                 <?php foreach ($gifts as $gift) : ?>
                 <?php 
-                if (($gift['price'] < 1000) && ($gift['gift'] == 5 ) ) { ?>
+                if ($gift['gift'] == 5 ) { ?>
                 <li class="first-in-line last_line col-sm-2 custom-product-more">
                   <div class="padding bgitems">
                     <!-- Product image -->
@@ -347,7 +347,7 @@
                       <?php if ($gift['price']) { ?>
                         <div class="product_price">
                           <div class="price_custom_gif">
-                             <?php echo $gift['price']; ?>
+                             <div style="color:#84BF49; display:inline; font-size: 16px; text-transform: capitalize;"><?php echo '(Worth: $' . $gift['price'] . ')'; ?></div>
                           </div>
                         </div>
                         <?php } ?>
@@ -384,7 +384,7 @@
             <ul class="row">
                 <?php foreach ($gifts as $gift) : ?>
                 <?php 
-                if (($gift['price'] < 1300) && ($gift['gift'] == 6 ) ) { ?>
+                if ($gift['gift'] == 6 ) { ?>
                 <li class="first-in-line last_line col-sm-2 custom-product-more">
                   <div class="padding bgitems">
                     <!-- Product image -->
@@ -407,7 +407,7 @@
                       <?php if ($gift['price']) { ?>
                         <div class="product_price">
                           <div class="price_custom_gif">
-                             <?php echo $gift['price']; ?>
+                             <div style="color:#84BF49; display:inline; font-size: 16px; text-transform: capitalize;"><?php echo '(Worth: $' . $gift['price'] . ')'; ?></div>
                           </div>
                         </div>
                         <?php } ?>
@@ -444,7 +444,7 @@
             <ul class="row">
                 <?php foreach ($gifts as $gift) : ?>
                 <?php 
-                if (($gift['price'] < 1600) && ($gift['gift'] == 7 ) ) { ?>
+                if ($gift['gift'] == 7 ) { ?>
                 <li class="first-in-line last_line col-sm-2 custom-product-more">
                   <div class="padding bgitems">
                     <!-- Product image -->
@@ -467,7 +467,7 @@
                       <?php if ($gift['price']) { ?>
                         <div class="product_price">
                           <div class="price_custom_gif">
-                             <?php echo $gift['price']; ?>
+                             <div style="color:#84BF49; display:inline; font-size: 16px; text-transform: capitalize;"><?php echo '(Worth: $' . $gift['price'] . ')'; ?></div>
                           </div>
                         </div>
                         <?php } ?>
@@ -504,7 +504,7 @@
             <ul class="row">
                 <?php foreach ($gifts as $gift) : ?>
                 <?php 
-                if (($gift['price'] < 1900) && ($gift['gift'] == 8 ) ) { ?>
+                if ($gift['gift'] == 8 ) { ?>
                 <li class="first-in-line last_line col-sm-2 custom-product-more">
                   <div class="padding bgitems">
                     <!-- Product image -->
@@ -527,7 +527,7 @@
                       <?php if ($gift['price']) { ?>
                         <div class="product_price">
                           <div class="price_custom_gif">
-                             <?php echo $gift['price']; ?>
+                             <div style="color:#84BF49; display:inline; font-size: 16px; text-transform: capitalize;"><?php echo '(Worth: $' . $gift['price'] . ')'; ?></div>
                           </div>
                         </div>
                         <?php } ?>
@@ -565,7 +565,7 @@
             <ul class="row">
                 <?php foreach ($gifts as $gift) : ?>
                 <?php 
-                if (($gift['price'] < 2200) && ($gift['gift'] == 9 ) ) { ?>
+                if ($gift['gift'] == 9 ) { ?>
                 <li class="first-in-line last_line col-sm-2 custom-product-more">
                   <div class="padding bgitems">
                     <!-- Product image -->
@@ -588,7 +588,7 @@
                       <?php if ($gift['price']) { ?>
                         <div class="product_price">
                           <div class="price_custom_gif">
-                             <?php echo $gift['price']; ?>
+                             <div style="color:#84BF49; display:inline; font-size: 16px; text-transform: capitalize;"><?php echo '(Worth: $' . $gift['price'] . ')'; ?></div>
                           </div>
                         </div>
                         <?php } ?>
@@ -624,7 +624,7 @@
             <ul class="row">
                 <?php foreach ($gifts as $gift) : ?>
                 <?php 
-                if (($gift['price'] < 2500) && ($gift['gift'] == 10 ) ) { ?>
+                if ($gift['gift'] == 10 ) { ?>
                 <li class="first-in-line last_line col-sm-2 custom-product-more">
                   <div class="padding bgitems">
                     <!-- Product image -->
@@ -647,7 +647,7 @@
                       <?php if ($gift['price']) { ?>
                         <div class="product_price">
                           <div class="price_custom_gif">
-                             <?php echo $gift['price']; ?>
+                             <div style="color:#84BF49; display:inline; font-size: 16px; text-transform: capitalize;"><?php echo '(Worth: $' . $gift['price'] . ')'; ?></div>
                           </div>
                         </div>
                         <?php } ?>
@@ -682,7 +682,7 @@
             <ul class="row">
                 <?php foreach ($gifts as $gift) : ?>
                 <?php 
-                if (($gift['price'] < 3000) && ($gift['gift'] == 11 ) ) { ?>
+                if ($gift['gift'] == 11 ) { ?>
                 <li class="first-in-line last_line col-sm-2 custom-product-more">
                   <div class="padding bgitems">
                     <!-- Product image -->
@@ -705,7 +705,7 @@
                       <?php if ($gift['price']) { ?>
                         <div class="product_price">
                           <div class="price_custom_gif">
-                             <?php echo $gift['price']; ?>
+                             <div style="color:#84BF49; display:inline; font-size: 16px; text-transform: capitalize;"><?php echo '(Worth: $' . $gift['price'] . ')'; ?></div>
                           </div>
                         </div>
                         <?php } ?>
@@ -741,7 +741,7 @@
             <ul class="row">
                 <?php foreach ($gifts as $gift) : ?>
                 <?php 
-                if (($gift['price'] < 3500) && ($gift['gift'] == 12 ) ) { ?>
+                if ($gift['gift'] == 12 ) { ?>
                 <li class="first-in-line last_line col-sm-2 custom-product-more">
                   <div class="padding bgitems">
                     <!-- Product image -->
@@ -764,7 +764,7 @@
                       <?php if ($gift['price']) { ?>
                         <div class="product_price">
                           <div class="price_custom_gif">
-                             <?php echo $gift['price']; ?>
+                             <div style="color:#84BF49; display:inline; font-size: 16px; text-transform: capitalize;"><?php echo '(Worth: $' . $gift['price'] . ')'; ?></div>
                           </div>
                         </div>
                         <?php } ?>
@@ -799,7 +799,7 @@
             <ul class="row">
                 <?php foreach ($gifts as $gift) : ?>
                 <?php 
-                if (($gift['price'] < 4000) && ($gift['gift'] == 13 ) ) { ?>
+                if ($gift['gift'] == 13 ) { ?>
                 <li class="first-in-line last_line col-sm-2 custom-product-more">
                   <div class="padding bgitems">
                     <!-- Product image -->
@@ -822,7 +822,7 @@
                       <?php if ($gift['price']) { ?>
                         <div class="product_price">
                           <div class="price_custom_gif">
-                             <?php echo $gift['price']; ?>
+                             <div style="color:#84BF49; display:inline; font-size: 16px; text-transform: capitalize;"><?php echo '(Worth: $' . $gift['price'] . ')'; ?></div>
                           </div>
                         </div>
                         <?php } ?>
@@ -857,7 +857,7 @@
             <ul class="row">
                 <?php foreach ($gifts as $gift) : ?>
                 <?php 
-                if (($gift['price'] < 4500) && ($gift['gift'] == 14 ) ) { ?>
+                if ($gift['gift'] == 14 ) { ?>
                 <li class="first-in-line last_line col-sm-2 custom-product-more">
                   <div class="padding bgitems">
                     <!-- Product image -->
@@ -880,7 +880,7 @@
                       <?php if ($gift['price']) { ?>
                         <div class="product_price">
                           <div class="price_custom_gif">
-                             <?php echo $gift['price']; ?>
+                             <div style="color:#84BF49; display:inline; font-size: 16px; text-transform: capitalize;"><?php echo '(Worth: $' . $gift['price'] . ')'; ?></div>
                           </div>
                         </div>
                         <?php } ?>
@@ -915,7 +915,7 @@
             <ul class="row">
                 <?php foreach ($gifts as $gift) : ?>
                 <?php 
-                if (($gift['price'] < 5000) && ($gift['gift'] == 15 ) ) { ?>
+                if ($gift['gift'] == 15 ) { ?>
                 <li class="first-in-line last_line col-sm-2 custom-product-more">
                   <div class="padding bgitems">
                     <!-- Product image -->
@@ -938,7 +938,7 @@
                       <?php if ($gift['price']) { ?>
                         <div class="product_price">
                           <div class="price_custom_gif">
-                             <?php echo $gift['price']; ?>
+                             <div style="color:#84BF49; display:inline; font-size: 16px; text-transform: capitalize;"><?php echo '(Worth: $' . $gift['price'] . ')'; ?></div>
                           </div>
                         </div>
                         <?php } ?>
@@ -973,7 +973,7 @@
             <ul class="row">
                 <?php foreach ($gifts as $gift) : ?>
                 <?php 
-                if (($gift['price'] < 5500) && ($gift['gift'] == 16 ) ) { ?>
+                if ($gift['gift'] == 16 ) { ?>
                 <li class="first-in-line last_line col-sm-2 custom-product-more">
                   <div class="padding bgitems">
                     <!-- Product image -->
@@ -996,7 +996,7 @@
                       <?php if ($gift['price']) { ?>
                         <div class="product_price">
                           <div class="price_custom_gif">
-                             <?php echo $gift['price']; ?>
+                             <div style="color:#84BF49; display:inline; font-size: 16px; text-transform: capitalize;"><?php echo '(Worth: $' . $gift['price'] . ')'; ?></div>
                           </div>
                         </div>
                         <?php } ?>
@@ -1031,7 +1031,7 @@
             <ul class="row">
                 <?php foreach ($gifts as $gift) : ?>
                 <?php 
-                if (($gift['price'] < 6000) && ($gift['gift'] == 17 ) ) { ?>
+                if ($gift['gift'] == 17 ) { ?>
                 <li class="first-in-line last_line col-sm-2 custom-product-more">
                   <div class="padding bgitems">
                     <!-- Product image -->
@@ -1054,7 +1054,7 @@
                       <?php if ($gift['price']) { ?>
                         <div class="product_price">
                           <div class="price_custom_gif">
-                             <?php echo $gift['price']; ?>
+                             <div style="color:#84BF49; display:inline; font-size: 16px; text-transform: capitalize;"><?php echo '(Worth: $' . $gift['price'] . ')'; ?></div>
                           </div>
                         </div>
                         <?php } ?>
@@ -1089,7 +1089,7 @@
             <ul class="row">
                 <?php foreach ($gifts as $gift) : ?>
                 <?php 
-                if (($gift['price'] < 6500) && ($gift['gift'] == 18 ) ) { ?>
+                if ($gift['gift'] == 18 ) { ?>
                 <li class="first-in-line last_line col-sm-2 custom-product-more">
                   <div class="padding bgitems">
                     <!-- Product image -->
@@ -1112,7 +1112,7 @@
                       <?php if ($gift['price']) { ?>
                         <div class="product_price">
                           <div class="price_custom_gif">
-                             <?php echo $gift['price']; ?>
+                             <div style="color:#84BF49; display:inline; font-size: 16px; text-transform: capitalize;"><?php echo '(Worth: $' . $gift['price'] . ')'; ?></div>
                           </div>
                         </div>
                         <?php } ?>
@@ -1147,7 +1147,7 @@
             <ul class="row">
                 <?php foreach ($gifts as $gift) : ?>
                 <?php 
-                if (($gift['price'] < 7000) && ($gift['gift'] == 19 ) ) { ?>
+                if ($gift['gift'] == 19 ) { ?>
                 <li class="first-in-line last_line col-sm-2 custom-product-more">
                   <div class="padding bgitems">
                     <!-- Product image -->
@@ -1170,7 +1170,7 @@
                       <?php if ($gift['price']) { ?>
                         <div class="product_price">
                           <div class="price_custom_gif">
-                             <?php echo $gift['price']; ?>
+                             <div style="color:#84BF49; display:inline; font-size: 16px; text-transform: capitalize;"><?php echo '(Worth: $' . $gift['price'] . ')'; ?></div>
                           </div>
                         </div>
                         <?php } ?>
@@ -1205,7 +1205,7 @@
             <ul class="row">
                 <?php foreach ($gifts as $gift) : ?>
                 <?php 
-                if (($gift['price'] < 8000) && ($gift['gift'] == 20 ) ) { ?>
+                if ($gift['gift'] == 20 ) { ?>
                 <li class="first-in-line last_line col-sm-2 custom-product-more">
                   <div class="padding bgitems">
                     <!-- Product image -->
@@ -1228,7 +1228,7 @@
                       <?php if ($gift['price']) { ?>
                         <div class="product_price">
                           <div class="price_custom_gif">
-                             <?php echo $gift['price']; ?>
+                             <div style="color:#84BF49; display:inline; font-size: 16px; text-transform: capitalize;"><?php echo '(Worth: $' . $gift['price'] . ')'; ?></div>
                           </div>
                         </div>
                         <?php } ?>
@@ -1263,7 +1263,7 @@
             <ul class="row">
                 <?php foreach ($gifts as $gift) : ?>
                 <?php 
-                if (($gift['price'] < 9000) && ($gift['gift'] == 21 ) ) { ?>
+                if ($gift['gift'] == 21 ) { ?>
                 <li class="first-in-line last_line col-sm-2 custom-product-more">
                   <div class="padding bgitems">
                     <!-- Product image -->
@@ -1286,7 +1286,7 @@
                       <?php if ($gift['price']) { ?>
                         <div class="product_price">
                           <div class="price_custom_gif">
-                             <?php echo $gift['price']; ?>
+                             <div style="color:#84BF49; display:inline; font-size: 16px; text-transform: capitalize;"><?php echo '(Worth: $' . $gift['price'] . ')'; ?></div>
                           </div>
                         </div>
                         <?php } ?>
@@ -1320,7 +1320,7 @@
             <ul class="row">
                 <?php foreach ($gifts as $gift) : ?>
                 <?php 
-                if (($gift['price'] < 10000) && ($gift['gift'] == 22 ) ) { ?>
+                if ($gift['gift'] == 22 ) { ?>
                 <li class="first-in-line last_line col-sm-2 custom-product-more">
                   <div class="padding bgitems">
                     <!-- Product image -->
@@ -1343,7 +1343,7 @@
                       <?php if ($gift['price']) { ?>
                         <div class="product_price">
                           <div class="price_custom_gif">
-                             <?php echo $gift['price']; ?>
+                             <div style="color:#84BF49; display:inline; font-size: 16px; text-transform: capitalize;"><?php echo '(Worth: $' . $gift['price'] . ')'; ?></div>
                           </div>
                         </div>
                         <?php } ?>
@@ -1378,7 +1378,7 @@
             <ul class="row">
                 <?php foreach ($gifts as $gift) : ?>
                 <?php 
-                if (($gift['price'] < 12000) && ($gift['gift'] == 23 ) ) { ?>
+                if ($gift['gift'] == 23 ) { ?>
                 <li class="first-in-line last_line col-sm-2 custom-product-more">
                   <div class="padding bgitems">
                     <!-- Product image -->
@@ -1401,7 +1401,7 @@
                       <?php if ($gift['price']) { ?>
                         <div class="product_price">
                           <div class="price_custom_gif">
-                             <?php echo $gift['price']; ?>
+                             <div style="color:#84BF49; display:inline; font-size: 16px; text-transform: capitalize;"><?php echo '(Worth: $' . $gift['price'] . ')'; ?></div>
                           </div>
                         </div>
                         <?php } ?>
@@ -1437,7 +1437,7 @@
             <ul class="row">
                 <?php foreach ($gifts as $gift) : ?>
                 <?php 
-                if (($gift['price'] < 13000) && ($gift['gift'] == 24 ) ) { ?>
+                if ($gift['gift'] == 24 ) { ?>
                 <li class="first-in-line last_line col-sm-2 custom-product-more">
                   <div class="padding bgitems">
                     <!-- Product image -->
@@ -1460,7 +1460,7 @@
                       <?php if ($gift['price']) { ?>
                         <div class="product_price">
                           <div class="price_custom_gif">
-                             <?php echo $gift['price']; ?>
+                             <div style="color:#84BF49; display:inline; font-size: 16px; text-transform: capitalize;"><?php echo '(Worth: $' . $gift['price'] . ')'; ?></div>
                           </div>
                         </div>
                         <?php } ?>
@@ -1482,7 +1482,7 @@
             </div>
         <div class="clear"></div>
       </div>
-    </div><!-- finish one section group price-->
+    </div><!-- finish one section group price--> 
 
 
     <!--begin one section-->
@@ -1495,7 +1495,7 @@
             <ul class="row">
                 <?php foreach ($gifts as $gift) : ?>
                 <?php 
-                if (($gift['price'] >= 13000) && ($gift['gift'] == 25 ) ) { ?>
+                if ($gift['gift'] == 25 ) { ?>
                 <li class="first-in-line last_line col-sm-2 custom-product-more">
                   <div class="padding bgitems">
                     <!-- Product image -->
@@ -1518,7 +1518,7 @@
                       <?php if ($gift['price']) { ?>
                         <div class="product_price">
                           <div class="price_custom_gif">
-                             <?php echo $gift['price']; ?>
+                             <div style="color:#84BF49; display:inline; font-size: 16px; text-transform: capitalize;"><?php echo '(Worth: $' . $gift['price'] . ')'; ?></div>
                           </div>
                         </div>
                         <?php } ?>
