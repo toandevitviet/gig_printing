@@ -8321,3 +8321,4 @@
 2015-03-19 18:34:53 - PHP Notice:  Undefined variable: text_feedback in E:\DATA\WEB\Run\htdocs\gig_printing\catalog\view\theme\theme483\template\module\information.tpl on line 16
 2015-03-19 18:36:13 - PHP Notice:  Undefined variable: i in E:\DATA\WEB\Run\htdocs\gig_printing\catalog\view\theme\theme483\template\module\featured.tpl on line 77
 2015-03-19 18:37:06 - PHP Notice:  Undefined variable: i in E:\DATA\WEB\Run\htdocs\gig_printing\catalog\view\theme\theme483\template\module\featured.tpl on line 77
+2015-03-19 18:38:38 - PHP Notice:  Undefined variable: i in E:\DATA\WEB\Run\htdocs\gig_printing\catalog\view\theme\theme483\template\module\featured.tpl on line 77

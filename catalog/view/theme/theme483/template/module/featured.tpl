@@ -73,7 +73,8 @@
   <div class="box-content">
 	<div class="box-product">
 		<ul class="row">
-		  <?php //echo '<pre>'; var_dump($products); die; $i=0; 
+		  <?php //echo '<pre>'; var_dump($products); die; 
+		  $i=0; 
 		  foreach ($products as $product) { $i++ ?>
 		  <?php 
 			   $perLine = 4;
