@@ -22,9 +22,6 @@ $_['entry_image']        = 'Image:';
 $_['entry_status']       = 'Status:';
 
 // Error
-$_['entry_description']       = 'Description:';
-
-// Error
 $_['error_permission']   = 'Warning: You do not have permission to modify banners!';
 $_['error_name']         = 'Banner Name must be between 3 and 64 characters!';
 $_['error_title']        = 'Banner Title must be between 2 and 64 characters!';

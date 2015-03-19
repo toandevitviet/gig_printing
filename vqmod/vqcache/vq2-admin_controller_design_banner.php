@@ -195,9 +195,6 @@ class ControllerDesignBanner extends Controller {
             $this->data['entry_description'] = $this->language->get('entry_description');
             
 
-            $this->data['entry_description'] = $this->language->get('entry_description');
-            
-
 		$this->data['text_no_results'] = $this->language->get('text_no_results');
 
 		$this->data['column_name'] = $this->language->get('column_name');
@@ -269,9 +266,6 @@ class ControllerDesignBanner extends Controller {
 
 	protected function getForm() {
 		$this->data['heading_title'] = $this->language->get('heading_title');
-
-            $this->data['entry_description'] = $this->language->get('entry_description');
-            
 
             $this->data['entry_description'] = $this->language->get('entry_description');
             
@@ -386,7 +380,6 @@ class ControllerDesignBanner extends Controller {
 
 		$this->data['banner_images'] = array();
 
-
 		foreach ($banner_images as $banner_image) {
 			if ($banner_image['image'] && file_exists(DIR_IMAGE . $banner_image['image'])) {
 				$image = $banner_image['image'];
@@ -396,21 +389,15 @@ class ControllerDesignBanner extends Controller {
 
 			$this->data['banner_images'][] = array(
 
-			//'description'			   => $banner_image['description'],
-            
-
-			'description'			   => $banner_image['banner_image_description'][1]['description'],
+			'description'			   => $banner_image['description'],
             
 				'banner_image_description' => $banner_image['banner_image_description'],
 				'link'                     => $banner_image['link'],
 				'image'                    => $image,
-				'thumb'                    => $this->model_tool_image->resize($image, 100, 100),
-
-				'banner_image_id' 		   => $banner_image['banner_image_description'][1]['banner_image_id']
+				'thumb'                    => $this->model_tool_image->resize($image, 100, 100)
 			);	
 		} 
 
-		//echo '<pre>'; var_dump($this->data['banner_images']); die;
 		$this->data['no_image'] = $this->model_tool_image->resize('no_image.jpg', 100, 100);		
 
 		$this->template = 'design/banner_form.tpl';
