@@ -127,13 +127,7 @@
 	 <?php if ($product['price']) { ?>
 			<div class="product_price">
 			<div class="price">
-				<?php if ($product['tax']) { ?>
-					<span class="price-tax"><?php echo $text_tax; ?> <?php echo $product['tax']; ?></span>
-				<?php } ?>
-				<?php if (!$product['special']) { ?>
 					<?php echo $product['price']; ?>
-				<?php } else { ?><span class="price-new"><?php echo $product['special']; ?></span><span class="price-old"><?php echo $product['price']; ?></span> 
-				<?php } ?>
 			</div>
 			</div>
 		<?php } ?>
@@ -141,8 +135,7 @@
 			<div class="cart"><a onclick="addToCart('<?php echo $product['product_id']; ?>');" class="tooltip-1 button" title="<?php echo $button_cart; ?>"><i class="fa fa-shopping-cart"></i></a></div>
 		</div>
 		
-		<div class="rating"><?php if ($product['rating']) { ?>
-			<img src="catalog/view/theme/theme483/image/stars-<?php echo $product['rating']; ?>.png" alt="<?php echo $product['reviews']; ?>" /><?php } ?>
+		<div class="rating">
 		</div>
 		  </div>
 		</li>

@@ -153,11 +153,9 @@
 									<?php if ($product['price']) { ?>
 										<div class="product_price price">
 									  <span class="text-price"><?php echo $text_price; ?></span>
-									  <?php if (!$product['special']) { ?>
+									  
 									  <?php echo $product['price']; ?>
-									  <?php } else { ?>
-									  <span class="price-new"><?php echo $product['special']; ?></span><span class="price-old"><?php echo $product['price']; ?></span>
-									  <?php } ?>
+									  
 									  
 									</div>
 									<?php } ?>
@@ -198,11 +196,8 @@
 					<?php if ($product['price']) { ?>
 					<div class="product_price">
 						<div class="price">
-							<?php if (!$product['special']) { ?>
 							<?php echo $product['price']; ?>
-							<?php } else { ?>
-							<span class="price-new"><?php echo $product['special']; ?></span><span class="price-old"><?php echo $product['price']; ?></span>
-							<?php } ?>
+							
 						</div>
 					</div>
 					<?php } ?>

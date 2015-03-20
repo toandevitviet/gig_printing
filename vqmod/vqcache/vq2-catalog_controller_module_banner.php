@@ -11,7 +11,7 @@ class ControllerModuleBanner extends Controller {
 		$this->data['banners'] = array();
 		
 		$results = $this->model_design_banner->getBanner($setting['banner_id']);
-
+		//var_dump($results); die;
 		foreach ($results as $result) {
 			if (file_exists(DIR_IMAGE . $result['image'])) {
 				$this->data['banners'][] = array(
@@ -19,6 +19,11 @@ class ControllerModuleBanner extends Controller {
             'description' => html_entity_decode($result['description']),
             
 					'title' => $result['title'],
+
+					'banner_id' => $result['banner_id'],
+					'orderrr' => $result['orderrr'],
+					'description'=> $result['description'],
+
 					'link'  => $result['link'],
 					'image' => $this->model_tool_image->resize($result['image'], $setting['width'], $setting['height'])
  , 'name' => $setting['banner_id'] 

@@ -72,19 +72,8 @@ $(document).ready(function(){
 
           <li><a href="<?php echo $cardgift; ?>"><?php echo $text_cardgift; ?></a></li>
 
-
-          <li><a href="<?php echo $filter; ?>"><?php echo $text_filter; ?></a></li>
-          <li><a href="<?php echo $profile; ?>"><?php echo $text_profile; ?></a></li>
-          <!-- <li><a class="parent"><?php //echo $text_attribute; ?></a>
-            <ul>
-              <li><a href="<?php //echo $attribute; ?>"><?php //echo $text_attribute; ?></a></li>
-              <li><a href="<?php //echo $attribute_group; ?>"><?php //echo $text_attribute_group; ?></a></li>
-            </ul>
-          </li> -->
           <li><a href="<?php echo $option; ?>"><?php echo $text_option; ?></a></li>
-          <li><a href="<?php echo $manufacturer; ?>"><?php echo $text_manufacturer; ?></a></li>
-          <li><a href="<?php echo $download; ?>"><?php echo $text_download; ?></a></li>
-          <li><a href="<?php echo $review; ?>"><?php echo $text_review; ?></a></li>
+
           <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
         </ul>
       </li>
@@ -176,9 +165,6 @@ $(document).ready(function(){
             <ul>
               <li><a href="<?php echo $layout; ?>"><?php echo $text_layout; ?></a></li>
               <li><a href="<?php echo $banner; ?>"><?php echo $text_banner; ?></a></li>
-              <!-- <li><a href="<?php //echo $slider; ?>"><?php //echo $text_slider; ?></a></li> -->
-
-              
             </ul>
           </li>
           <li><a class="parent"><?php echo $text_users; ?></a>
@@ -250,13 +236,7 @@ $(document).ready(function(){
           </li>
         </ul>
       </li>
-      <!-- <li id="help"><a class="top"><?php //echo $text_help; ?></a>
-        <ul>
-          <li><a href="http://www.opencart.com" target="_blank"><?php //echo $text_opencart; ?></a></li>
-          <li><a href="http://www.opencart.com/index.php?route=documentation/introduction" target="_blank"><?php //echo $text_documentation; ?></a></li>
-          <li><a href="http://forum.opencart.com" target="_blank"><?php //echo $text_support; ?></a></li>
-        </ul>
-      </li> -->
+
     </ul>
     <ul class="right" style="display: none;">
       <li id="store"><a href="<?php echo $store; ?>" target="_blank" class="top"><?php echo $text_front; ?></a>
