@@ -7,7 +7,7 @@ class ModelDesignBanner extends Model {
 
 		if (isset($data['banner_image'])) {
 			foreach ($data['banner_image'] as $banner_image) {
-				$this->db->query("INSERT INTO " . DB_PREFIX . "banner_image SET banner_id = '" . (int)$banner_id . "', link = '" .  $this->db->escape($banner_image['link']) . "', image = '" .  $this->db->escape($banner_image['image']) . "'");
+				$this->db->query("INSERT INTO " . DB_PREFIX . "banner_image SET banner_id = '" . (int)$banner_id . "', orderrr = '" .  $this->db->escape($banner_image['orderrr']) . "', link = '" .  $this->db->escape($banner_image['link']) . "', image = '" .  $this->db->escape($banner_image['image']) . "'");
 
 				$banner_image_id = $this->db->getLastId();
 
@@ -28,7 +28,7 @@ class ModelDesignBanner extends Model {
 
 		if (isset($data['banner_image'])) {
 			foreach ($data['banner_image'] as $banner_image) {
-				$this->db->query("INSERT INTO " . DB_PREFIX . "banner_image SET banner_id = '" . (int)$banner_id . "', link = '" .  $this->db->escape($banner_image['link']) . "', image = '" .  $this->db->escape($banner_image['image']) . "'");
+				$this->db->query("INSERT INTO " . DB_PREFIX . "banner_image SET banner_id = '" . (int)$banner_id . "', link = '" .  $this->db->escape($banner_image['link']) . "', orderrr = '" .  $this->db->escape($banner_image['orderrr']) . "', image = '" .  $this->db->escape($banner_image['image']) . "'");
 
 				$banner_image_id = $this->db->getLastId();
 
@@ -110,9 +110,10 @@ class ModelDesignBanner extends Model {
 			$banner_image_data[] = array(
 				'banner_image_description' => $banner_image_description_data,
 
-            'description'              => $banner_image_description_desc,
+            	'description'              => $banner_image_description_desc,
             
 				'link'                     => $banner_image['link'],
+				'orderrr'                     => $banner_image['orderrr'],
 				'image'                    => $banner_image['image']	
 			);
 		}

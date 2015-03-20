@@ -18,6 +18,9 @@ $_['column_action']      = 'Action';
 $_['entry_name']         = 'Banner Name:';
 $_['entry_title']        = 'Title:';
 $_['entry_link']         = 'Link:';
+
+$_['entry_order']         = 'Order:';
+
 $_['entry_image']        = 'Image:';
 $_['entry_status']       = 'Status:';
 
@@ -29,6 +32,9 @@ $_['error_default']      = 'Warning: This layout cannot be deleted as it is curr
 $_['error_product']      = 'Warning: This layout cannot be deleted as it is currently assigned to %s products!';
 $_['error_category']     = 'Warning: This layout cannot be deleted as it is currently assigned to %s categories!';
 $_['error_information']  = 'Warning: This layout cannot be deleted as it is currently assigned to %s information pages!';
+
+$_['entry_description']       = 'Description:';
+            
 
             $_['entry_description']       = 'Description:';
             
