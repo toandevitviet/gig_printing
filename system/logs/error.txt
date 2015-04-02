@@ -8388,3 +8388,7 @@
 2015-03-20 3:14:45 - PHP Notice:  Undefined index: orderrr in D:\xampp\htdocs\gig_printing\vqmod\vqcache\vq2-admin_view_template_design_banner_form.tpl on line 75
 2015-03-20 3:14:45 - PHP Notice:  Undefined index: orderrr in D:\xampp\htdocs\gig_printing\vqmod\vqcache\vq2-admin_view_template_design_banner_form.tpl on line 75
 2015-03-20 3:14:45 - PHP Notice:  Undefined index: orderrr in D:\xampp\htdocs\gig_printing\vqmod\vqcache\vq2-admin_view_template_design_banner_form.tpl on line 75
+2015-03-20 3:34:52 - PHP Notice:  Undefined variable: text_feedback in D:\xampp\htdocs\gig_printing\catalog\view\theme\theme483\template\module\information.tpl on line 16
+2015-03-20 4:48:27 - PHP Notice:  Undefined variable: text_feedback in D:\xampp\htdocs\gig_printing\catalog\view\theme\theme483\template\module\information.tpl on line 16
+2015-03-20 5:48:35 - PHP Notice:  Undefined variable: attribute_row in D:\xampp\htdocs\gig_printing\admin\view\template\catalog\product_form.tpl on line 903
+2015-03-20 5:48:35 - PHP Notice:  Undefined variable: special_row in D:\xampp\htdocs\gig_printing\admin\view\template\catalog\product_form.tpl on line 1169

@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 20, 2015 at 03:26 AM
+-- Generation Time: Apr 02, 2015 at 03:28 AM
 -- Server version: 5.5.27
 -- PHP Version: 5.4.7
 
@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS `address` (
   `zone_id` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`address_id`),
   KEY `customer_id` (`customer_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
 
 --
 -- Dumping data for table `address`
@@ -53,7 +53,8 @@ INSERT INTO `address` (`address_id`, `customer_id`, `firstname`, `lastname`, `co
 (2, 2, 'admin', 'admin', '', '', '', '111', '', '111', '111', 222, 3515),
 (3, 3, 'toanlm', 'toan', '', '', '', '2311', '', '32', '12', 222, 3600),
 (4, 4, 'le', 'toan', 'Qsoft Việt Nam', '0984', '', 'Ha Noi', '', 'Ha Noi', '098', 230, 3778),
-(5, 5, 'totaton', 'sdsdsd', '', '', '', '1212', '', '1212', '343', 207, 3160);
+(5, 5, 'totaton', 'sdsdsd', '', '', '', '1212', '', '1212', '343', 207, 3160),
+(6, 6, 'dfdf', 'dfdfd', '11', '', '', '111', '', '111', '111', 222, 3515);
 
 -- --------------------------------------------------------
 
@@ -289,7 +290,7 @@ CREATE TABLE IF NOT EXISTS `banner_image` (
   `image` varchar(255) NOT NULL,
   `orderrr` varchar(100) NOT NULL,
   PRIMARY KEY (`banner_image_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1097 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1105 ;
 
 --
 -- Dumping data for table `banner_image`
@@ -301,14 +302,15 @@ INSERT INTO `banner_image` (`banner_image_id`, `banner_id`, `link`, `image`, `or
 (882, 21, 'index.php?route=product/product&amp;product_id=32', 'data/banner2.jpg', ''),
 (881, 21, 'index.php?route=product/product&amp;product_id=33', 'data/banner3.jpg', ''),
 (1087, 15, '', 'data/slide-1.jpg', ''),
-(1092, 16, '#', 'data/bn5.png', '3'),
-(1093, 16, '#', 'data/bn4.png', '2'),
-(1091, 16, 'index.php?route=product/category&amp;path=20', 'data/bn1.png', '1'),
-(1090, 16, 'index.php?route=product/category&amp;path=110', 'data/bn2.png', '5'),
+(1103, 16, '', 'data/Designer-cards3.png', '7'),
+(1102, 16, '#', 'data/We-shoot-cocktails2.png', '6'),
+(1100, 16, 'index.php?route=product/category&amp;path=110', 'data/bn2.png', '5'),
+(1101, 16, 'index.php?route=product/category&amp;path=109', 'data/bn3.png', '4'),
 (1089, 15, '', 'data/img_service.png', ''),
-(1094, 16, 'index.php?route=product/category&amp;path=109', 'data/bn3.png', '4'),
-(1095, 16, '#', 'data/We-shoot-cocktails2.png', '6'),
-(1096, 16, '', 'data/Designer-cards3.png', '7');
+(1099, 16, 'index.php?route=product/category&amp;path=20', 'data/bn1.png', '1'),
+(1098, 16, '#', 'data/bn4.png', '2'),
+(1097, 16, '#', 'data/bn5.png', '3'),
+(1104, 16, 'adad', 'data/Big-Love-Agency-cards2.png', '8');
 
 -- --------------------------------------------------------
 
@@ -345,30 +347,17 @@ INSERT INTO `banner_image_description` (`banner_image_id`, `language_id`, `banne
 (881, 3, 21, 'banner-3', 0x266c743b7370616e2667743b46726565266c743b62722667743b0d0a5368697070696e67266c743b2f7370616e2667743b266c743b62722667743b0d0a6f6e206f7264657273206f76657220243939),
 (882, 1, 21, 'banner-2', 0x266c743b7370616e2667743b5361766520323025266c743b62722667743b0d0a7768656e20796f75266c743b2f7370616e2667743b266c743b62722667743b0d0a757365206372656469742063617264),
 (882, 2, 21, 'banner-2', 0x266c743b7370616e2667743b5361766520323025266c743b62722667743b0d0a7768656e20796f75266c743b2f7370616e2667743b266c743b62722667743b0d0a757365206372656469742063617264),
-(1095, 2, 16, 'test 6', 0x266c743b7370616e2667743b546573742036266c743b2f7370616e2667743b266c743b62722667743b0d0a266c743b64697620636c6173733d2671756f743b636f6c6f72332671756f743b2667743b266c743b6920636c6173733d2671756f743b66612066612d7365617263682671756f743b2667743b266c743b2f692667743b266c743b2f6469762667743b),
-(1095, 1, 16, 'test 6', 0x266c743b7370616e2667743b546573742036266c743b2f7370616e2667743b266c743b62722667743b0d0a266c743b64697620636c6173733d2671756f743b636f6c6f72332671756f743b2667743b266c743b6920636c6173733d2671756f743b66612066612d7365617263682671756f743b2667743b266c743b2f692667743b266c743b2f6469762667743b),
-(1094, 3, 16, 'banner-2', 0x266c743b7370616e2667743b5265636569707420266c743b62722667743b526f6c6c7320266c743b2f7370616e2667743b266c743b62722667743b0d0a266c743b64697620636c6173733d2671756f743b636f6c6f72322671756f743b2667743b266c743b6920636c6173733d2671756f743b66612066612d7365617263682671756f743b2667743b266c743b2f692667743b266c743b2f6469762667743b),
-(1094, 2, 16, 'banner-2', 0x266c743b7370616e2667743b5265636569707420266c743b62722667743b526f6c6c7320266c743b2f7370616e2667743b266c743b62722667743b0d0a266c743b64697620636c6173733d2671756f743b636f6c6f72322671756f743b2667743b266c743b6920636c6173733d2671756f743b66612066612d7365617263682671756f743b2667743b266c743b2f692667743b266c743b2f6469762667743b),
-(1094, 1, 16, 'banner-2', 0x266c743b7370616e2667743b5265636569707420266c743b62722667743b526f6c6c7320266c743b2f7370616e2667743b266c743b62722667743b0d0a266c743b64697620636c6173733d2671756f743b636f6c6f72322671756f743b2667743b266c743b6920636c6173733d2671756f743b66612066612d7365617263682671756f743b2667743b266c743b2f692667743b266c743b2f6469762667743b),
-(1093, 3, 16, 'banner-5', 0x266c743b7370616e2667743b53616c65206f6620266c743b62722667743b5069637475726573266c743b2f7370616e2667743b266c743b62722667743b0d0a266c743b64697620636c6173733d2671756f743b636f6c6f72352671756f743b2667743b266c743b6920636c6173733d2671756f743b66612066612d7365617263682671756f743b2667743b266c743b2f692667743b266c743b2f6469762667743b),
-(1093, 2, 16, 'banner-5', 0x266c743b7370616e2667743b53616c65206f6620266c743b62722667743b5069637475726573266c743b2f7370616e2667743b266c743b62722667743b0d0a266c743b64697620636c6173733d2671756f743b636f6c6f72352671756f743b2667743b266c743b6920636c6173733d2671756f743b66612066612d7365617263682671756f743b2667743b266c743b2f692667743b266c743b2f6469762667743b),
-(1093, 1, 16, 'banner-5', 0x266c743b7370616e2667743b53616c65206f6620266c743b62722667743b5069637475726573266c743b2f7370616e2667743b266c743b62722667743b0d0a266c743b64697620636c6173733d2671756f743b636f6c6f72352671756f743b2667743b266c743b6920636c6173733d2671756f743b66612066612d7365617263682671756f743b2667743b266c743b2f692667743b266c743b2f6469762667743b),
-(1092, 3, 16, 'banner-1', 0x266c743b7370616e2667743b2d4f7468657220266c743b62722667743b70726f6475637473266c743b2f7370616e2667743b266c743b62722667743b0d0a266c743b64697620636c6173733d2671756f743b636f6c6f72312671756f743b2667743b266c743b6920636c6173733d2671756f743b66612066612d7365617263682671756f743b2667743b266c743b2f692667743b266c743b2f6469762667743b),
-(1092, 2, 16, 'banner-1', 0x266c743b7370616e2667743b2d4f7468657220266c743b62722667743b70726f6475637473266c743b2f7370616e2667743b266c743b62722667743b0d0a266c743b64697620636c6173733d2671756f743b636f6c6f72312671756f743b2667743b266c743b6920636c6173733d2671756f743b66612066612d7365617263682671756f743b2667743b266c743b2f692667743b266c743b2f6469762667743b),
-(1092, 1, 16, 'banner-1', 0x266c743b7370616e2667743b4f7468657220266c743b62722667743b70726f6475637473266c743b2f7370616e2667743b266c743b62722667743b0d0a266c743b64697620636c6173733d2671756f743b636f6c6f72312671756f743b2667743b266c743b6920636c6173733d2671756f743b66612066612d7365617263682671756f743b2667743b266c743b2f692667743b266c743b2f6469762667743b),
-(1091, 3, 16, 'banner-4', 0x266c743b7370616e2667743b47656e6572616c205072696e74696e67266c743b2f7370616e2667743b266c743b62722667743b0d0a266c743b64697620636c6173733d2671756f743b636f6c6f72342671756f743b2667743b266c743b6920636c6173733d2671756f743b66612066612d7365617263682671756f743b2667743b266c743b2f692667743b266c743b2f6469762667743b0d0a),
-(1091, 2, 16, 'banner-4', 0x266c743b7370616e2667743b47656e6572616c205072696e74696e67266c743b2f7370616e2667743b266c743b62722667743b0d0a266c743b64697620636c6173733d2671756f743b636f6c6f72342671756f743b2667743b266c743b6920636c6173733d2671756f743b66612066612d7365617263682671756f743b2667743b266c743b2f692667743b266c743b2f6469762667743b0d0a),
-(1091, 1, 16, 'banner-4', 0x266c743b7370616e2667743b47656e6572616c205072696e74696e67266c743b2f7370616e2667743b266c743b62722667743b0d0a266c743b64697620636c6173733d2671756f743b636f6c6f72342671756f743b2667743b266c743b6920636c6173733d2671756f743b66612066612d7365617263682671756f743b2667743b266c743b2f692667743b266c743b2f6469762667743b0d0a),
-(1090, 3, 16, 'banner-3', 0x266c743b7370616e2667743b43616c656e64617220616e642020526564207061636b6574266c743b2f7370616e2667743b266c743b62722667743b0d0a266c743b64697620636c6173733d2671756f743b636f6c6f72332671756f743b2667743b266c743b6920636c6173733d2671756f743b66612066612d7365617263682671756f743b2667743b266c743b2f692667743b266c743b2f6469762667743b),
-(1090, 2, 16, 'banner-3', 0x266c743b7370616e2667743b43616c656e64617220616e642020526564207061636b6574266c743b2f7370616e2667743b266c743b62722667743b0d0a266c743b64697620636c6173733d2671756f743b636f6c6f72332671756f743b2667743b266c743b6920636c6173733d2671756f743b66612066612d7365617263682671756f743b2667743b266c743b2f692667743b266c743b2f6469762667743b),
-(1090, 1, 16, 'banner-3', 0x266c743b7370616e2667743b43616c656e64617220616e642020526564207061636b6574266c743b2f7370616e2667743b266c743b62722667743b0d0a266c743b64697620636c6173733d2671756f743b636f6c6f72332671756f743b2667743b266c743b6920636c6173733d2671756f743b66612066612d7365617263682671756f743b2667743b266c743b2f692667743b266c743b2f6469762667743b),
+(1104, 1, 16, 'xdcad', 0x617364617364617364617364616164),
+(1103, 1, 16, 'rrrr', 0x66646664666466646664),
+(1102, 1, 16, 'test 6', 0x266c743b7370616e2667743b546573742036266c743b2f7370616e2667743b266c743b62722667743b0d0a266c743b64697620636c6173733d2671756f743b636f6c6f72332671756f743b2667743b266c743b6920636c6173733d2671756f743b66612066612d7365617263682671756f743b2667743b266c743b2f692667743b266c743b2f6469762667743b),
+(1101, 1, 16, 'banner-2', 0x266c743b7370616e2667743b5265636569707420266c743b62722667743b526f6c6c7320266c743b2f7370616e2667743b266c743b62722667743b0d0a266c743b64697620636c6173733d2671756f743b636f6c6f72322671756f743b2667743b266c743b6920636c6173733d2671756f743b66612066612d7365617263682671756f743b2667743b266c743b2f692667743b266c743b2f6469762667743b),
+(1100, 1, 16, 'banner-3', 0x266c743b7370616e2667743b43616c656e64617220616e642020526564207061636b6574266c743b2f7370616e2667743b266c743b62722667743b0d0a266c743b64697620636c6173733d2671756f743b636f6c6f72332671756f743b2667743b266c743b6920636c6173733d2671756f743b66612066612d7365617263682671756f743b2667743b266c743b2f692667743b266c743b2f6469762667743b),
+(1099, 1, 16, 'banner-4', 0x266c743b7370616e2667743b47656e6572616c205072696e74696e67266c743b2f7370616e2667743b266c743b62722667743b0d0a266c743b64697620636c6173733d2671756f743b636f6c6f72342671756f743b2667743b266c743b6920636c6173733d2671756f743b66612066612d7365617263682671756f743b2667743b266c743b2f692667743b266c743b2f6469762667743b0d0a),
 (1089, 1, 15, 'slide-3', 0x4c6574204749472033266c743b62722667743b0d0a266c743b7370616e2667743b546f20596f757220427573696e65737321266c743b2f7370616e2667743b266c743b62722667743b0d0a266c743b702667743b446f6e6563207669746165206469616d207574207075727573206c75637475732066696c697369732e204e756c6c6563747573206e6f6e2065726f732074726973746971756520756c747269632e20266c743b62722667743b0d0a44756973207175697320696d70657264696574206573742e20536564206c6f626f7274697320756c74726963657320616c69717565742e2020266c743b2f702667743b0d0a),
 (1089, 2, 15, 'slide-3', 0x4c6574204749472033266c743b62722667743b0d0a266c743b7370616e2667743b546f20596f757220427573696e65737321266c743b2f7370616e2667743b266c743b62722667743b0d0a266c743b702667743b446f6e6563207669746165206469616d207574207075727573206c75637475732066696c697369732e204e756c6c6563747573206e6f6e2065726f732074726973746971756520756c747269632e20266c743b62722667743b0d0a44756973207175697320696d70657264696574206573742e20536564206c6f626f7274697320756c74726963657320616c69717565742e2020266c743b2f702667743b0d0a),
 (1089, 3, 15, 'slide-3', 0x4c6574204749472033266c743b62722667743b0d0a266c743b7370616e2667743b546f20596f757220427573696e65737321266c743b2f7370616e2667743b266c743b62722667743b0d0a266c743b702667743b446f6e6563207669746165206469616d207574207075727573206c75637475732066696c697369732e204e756c6c6563747573206e6f6e2065726f732074726973746971756520756c747269632e20266c743b62722667743b0d0a44756973207175697320696d70657264696574206573742e20536564206c6f626f7274697320756c74726963657320616c69717565742e2020266c743b2f702667743b0d0a),
-(1095, 3, 16, 'test 6', 0x266c743b7370616e2667743b546573742036266c743b2f7370616e2667743b266c743b62722667743b0d0a266c743b64697620636c6173733d2671756f743b636f6c6f72332671756f743b2667743b266c743b6920636c6173733d2671756f743b66612066612d7365617263682671756f743b2667743b266c743b2f692667743b266c743b2f6469762667743b),
-(1096, 1, 16, 'rrrr', 0x66646664666466646664),
-(1096, 2, 16, 'rrrr', 0x66646664666466646664),
-(1096, 3, 16, 'rrrr', 0x66646664666466646664);
+(1098, 1, 16, 'banner-5', 0x266c743b7370616e2667743b53616c65206f6620266c743b62722667743b5069637475726573266c743b2f7370616e2667743b266c743b62722667743b0d0a266c743b64697620636c6173733d2671756f743b636f6c6f72352671756f743b2667743b266c743b6920636c6173733d2671756f743b66612066612d7365617263682671756f743b2667743b266c743b2f692667743b266c743b2f6469762667743b),
+(1097, 1, 16, 'banner-1', 0x266c743b7370616e2667743b4f7468657220266c743b62722667743b70726f6475637473266c743b2f7370616e2667743b266c743b62722667743b0d0a266c743b64697620636c6173733d2671756f743b636f6c6f72312671756f743b2667743b266c743b6920636c6173733d2671756f743b66612066612d7365617263682671756f743b2667743b266c743b2f692667743b266c743b2f6469762667743b);
 
 -- --------------------------------------------------------
 
@@ -459,7 +448,7 @@ CREATE TABLE IF NOT EXISTS `category` (
   `date_added` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   `date_modified` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   PRIMARY KEY (`category_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=117 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=118 ;
 
 --
 -- Dumping data for table `category`
@@ -477,7 +466,8 @@ INSERT INTO `category` (`category_id`, `image`, `parent_id`, `category_type`, `c
 (113, 'data/Gist-2.png', 0, 'card', 1, 0, 1, '2015-03-08 22:49:48', '2015-03-09 22:47:48'),
 (114, 'data/Gist-3.png', 0, 'card', 1, 0, 1, '2015-03-08 23:21:34', '2015-03-09 22:48:00'),
 (115, '', 0, 'advs', 1, 0, 1, '2015-03-17 11:52:58', '2015-03-17 11:52:58'),
-(116, '', 0, 'card', 1, 0, 1, '2015-03-17 14:12:20', '2015-03-17 14:13:35');
+(116, '', 0, 'card', 1, 0, 1, '2015-03-17 14:12:20', '2015-03-17 14:13:35'),
+(117, 'data/Designer-DR-cards1.png', 0, 'advs', 1, 0, 1, '2015-03-20 11:47:33', '2015-03-20 11:47:33');
 
 -- --------------------------------------------------------
 
@@ -536,7 +526,8 @@ INSERT INTO `category_description` (`category_id`, `language_id`, `name`, `descr
 (115, 3, 'adv2 new', 'content of page&lt;br /&gt;\r\n&amp;nbsp;content of page&lt;br /&gt;\r\n&amp;nbsp;content of page', '', ''),
 (116, 3, 'new top cate', 'new top cate', '', ''),
 (116, 2, 'new top cate', 'new top cate', '', ''),
-(116, 1, 'new top cate', 'new top cate', '', '');
+(116, 1, 'new top cate', 'new top cate', '', ''),
+(117, 1, 'fsfsdf', 'sfsssfsfs', 'sfsfsf', '');
 
 -- --------------------------------------------------------
 
@@ -629,7 +620,8 @@ INSERT INTO `category_path` (`category_id`, `path_id`, `level`) VALUES
 (113, 113, 0),
 (114, 114, 0),
 (115, 115, 0),
-(116, 116, 0);
+(116, 116, 0),
+(117, 117, 0);
 
 -- --------------------------------------------------------
 
@@ -672,7 +664,8 @@ INSERT INTO `category_to_store` (`category_id`, `store_id`) VALUES
 (113, 0),
 (114, 0),
 (115, 0),
-(116, 0);
+(116, 0),
+(117, 0);
 
 -- --------------------------------------------------------
 
@@ -1045,7 +1038,7 @@ CREATE TABLE IF NOT EXISTS `currency` (
 
 INSERT INTO `currency` (`currency_id`, `title`, `code`, `symbol_left`, `symbol_right`, `decimal_place`, `value`, `status`, `date_modified`) VALUES
 (1, 'Pound Sterling', 'GBP', '£', '', '2', 0.67879999, 1, '2015-03-19 16:59:57'),
-(2, 'US Dollar', 'USD', '$', '', '2', 1.00000000, 1, '2015-03-20 02:50:37'),
+(2, 'US Dollar', 'USD', '$', '', '2', 1.00000000, 1, '2015-03-20 05:49:49'),
 (3, 'Euro', 'EUR', '', '€', '2', 0.94120002, 1, '2015-03-19 16:59:57');
 
 -- --------------------------------------------------------
@@ -1077,7 +1070,7 @@ CREATE TABLE IF NOT EXISTS `customer` (
   `tel` varchar(32) NOT NULL,
   `company` varchar(50) NOT NULL,
   PRIMARY KEY (`customer_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
 
 --
 -- Dumping data for table `customer`
@@ -1088,7 +1081,8 @@ INSERT INTO `customer` (`customer_id`, `store_id`, `firstname`, `lastname`, `ema
 (2, 0, 'admin', 'admin', 'admin@demolink.org', '111', '', '4985a24d9991678e204319c83121df8ae9868d32', 'cd1f405b1', 'a:2:{s:4:"29::";i:1;s:4:"43::";i:1;}', 'a:2:{i:0;s:2:"43";i:1;s:2:"29";}', 0, 2, 1, '192.168.9.1', 1, 1, '', '2014-08-15 15:51:41', '', ''),
 (3, 0, 'toanlm', 'toan', 'toanktv.it@gmail.com', '0909090909', '', '97ed94e20a102fad03f97975d85482a728761f62', 'bccf67dd8', 'a:5:{s:4:"28::";i:4;s:4:"33::";i:1;s:32:"29:YToxOntpOjI0MTtzOjI6IjUxIjt9:";i:1;s:4:"30::";i:1;s:4:"34::";i:1;}', '', 0, 3, 1, '::1', 1, 1, '', '2015-02-08 22:26:34', '', ''),
 (4, 0, 'le', 'toan', 'manhtoan_0510@yahoo.com.vn', '0914390567', '01649869857', '56666fbba55d623ed5de6ca100f6b14dc716a5a4', '34f0edd96', 'a:0:{}', '', 1, 4, 1, '::1', 1, 1, '', '2015-03-06 23:24:22', '', ''),
-(5, 0, 'totaton', 'sdsdsd', 'tragiang_59@yahoo.com.vn', '1212121212', '1212', '5f53845bc0421fe8e3731d75c843128a7e433f19', 'a01d54725', 'a:0:{}', '', 0, 5, 1, '::1', 1, 1, '', '2015-03-20 00:16:07', '', '');
+(5, 0, 'totaton', 'sdsdsd', 'tragiang_59@yahoo.com.vn', '1212121212', '1212', '5f53845bc0421fe8e3731d75c843128a7e433f19', 'a01d54725', 'a:0:{}', '', 0, 5, 1, '::1', 1, 1, '', '2015-03-20 00:16:07', '', ''),
+(6, 0, 'dfdf', 'dfdfd', 'toanktv.ifdfdft@gmail.com', '1111', '1111', '8346d5e7b6a00a1bf15af343813a1f5030fcc0d9', '11da3d84d', 'a:0:{}', '', 0, 6, 1, '127.0.0.1', 1, 1, '', '2015-03-20 14:44:07', '', '');
 
 -- --------------------------------------------------------
 
@@ -1193,7 +1187,7 @@ CREATE TABLE IF NOT EXISTS `customer_ip` (
   `date_added` datetime NOT NULL,
   PRIMARY KEY (`customer_ip_id`),
   KEY `ip` (`ip`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
 
 --
 -- Dumping data for table `customer_ip`
@@ -1204,7 +1198,8 @@ INSERT INTO `customer_ip` (`customer_ip_id`, `customer_id`, `ip`, `date_added`) 
 (2, 2, '192.168.9.1', '2014-08-15 15:51:49'),
 (3, 3, '::1', '2015-02-08 22:26:36'),
 (4, 4, '::1', '2015-03-06 23:24:24'),
-(5, 5, '::1', '2015-03-20 00:16:08');
+(5, 5, '::1', '2015-03-20 00:16:08'),
+(6, 6, '127.0.0.1', '2015-03-20 14:44:07');
 
 -- --------------------------------------------------------
 
@@ -1525,7 +1520,7 @@ CREATE TABLE IF NOT EXISTS `information` (
   `status` tinyint(1) NOT NULL DEFAULT '1',
   `top` int(1) NOT NULL,
   PRIMARY KEY (`information_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=9 ;
 
 --
 -- Dumping data for table `information`
@@ -1536,7 +1531,8 @@ INSERT INTO `information` (`information_id`, `bottom`, `sort_order`, `status`, `
 (4, 1, 1, 1, 1),
 (5, 1, 4, 1, 1),
 (6, 1, 2, 1, 0),
-(7, 0, 5, 1, 1);
+(7, 0, 5, 1, 1),
+(8, 1, 0, 1, 0);
 
 -- --------------------------------------------------------
 
@@ -1571,7 +1567,8 @@ INSERT INTO `information_description` (`information_id`, `language_id`, `title`,
 (4, 2, 'About GIG', '&lt;div class=&quot;about-page&quot;&gt;&lt;!--&lt;i class=&quot;fa fa-thumbs-up&quot;&gt;&amp;nbsp;&lt;/i&gt;--&gt;\r\n&lt;div class=&quot;extra-wrap&quot;&gt;\r\n&lt;h3&gt;About GIG&lt;/h3&gt;\r\n\r\n&lt;p&gt;GIG provides a wide range of printing services, 95% of anything paper, with the exception of Label Stickers. Over the years GIG has acquired the know-how in its business to deliver quality products, savings and good services to its Customers.&lt;/p&gt;\r\n\r\n&lt;p&gt;GIG&amp;#39;s operators have some 40 years of experience to take on specialized job. GIG continues to integrate more print -related business into its division to give its Customer the benefit of convenience, lower cost, quality and quicker response time.&lt;/p&gt;\r\n\r\n&lt;p&gt;Our business is processed to customize to our Client&amp;#39;s needs with patience. Assist Customer, some from an idea to product completion in timely delivery. GIG endeavours to make job completed easy and comfortable for our clients.&lt;/p&gt;\r\n\r\n&lt;p&gt;GIG operates from Singapore, Malaysia and neighbouring countries to maximize the potential of each of its machineries capabilities and on the other hand, manages overall overheads to produce optimum quality and prices. We aim and seek a good combination for our Customers, Ourselves and Suppliers.&lt;/p&gt;\r\n&lt;/div&gt;\r\n&lt;/div&gt;\r\n\r\n&lt;div class=&quot;about-page&quot;&gt;&lt;!--&lt;i class=&quot;fa fa-clock-o&quot;&gt;&amp;nbsp;&lt;/i&gt;--&gt;\r\n&lt;div class=&quot;extra-wrap&quot;&gt;\r\n&lt;h3&gt;Good news&lt;/h3&gt;\r\n\r\n&lt;p&gt;GIG thanks all its Customers for their continual support over the years. GIG will like to thank its Customers by translating those savings into vouchers usable at NTUC, Shell Petrol Station, Jack&amp;#39;s Place and Metro.&lt;/p&gt;\r\n\r\n&lt;p&gt;To know more of free gifts, please log on to gig.sgfireegift.htm&lt;/p&gt;\r\n&lt;/div&gt;\r\n&lt;/div&gt;\r\n\r\n&lt;div class=&quot;about-page&quot;&gt;&lt;!--&lt;i class=&quot;fa fa-gift&quot;&gt;&amp;nbsp;&lt;/i&gt;--&gt;\r\n&lt;div class=&quot;extra-wrap&quot;&gt;\r\n&lt;h3&gt;Our belief&lt;/h3&gt;\r\n\r\n&lt;p&gt;Private &amp;amp; Confidential Policy&lt;/p&gt;\r\n\r\n&lt;p&gt;Information collected from Customer is regarded with strict confidential and will not in any way disclose to another party unless instructed by the Customer. GIG, to its best of knowledge will not compromise material quality &amp;amp; cost to the detriment of the Users&lt;/p&gt;\r\n&lt;/div&gt;\r\n&lt;/div&gt;\r\n\r\n&lt;div class=&quot;about-page&quot;&gt;&lt;!--&lt;i class=&quot;fa fa-refresh&quot;&gt;&amp;nbsp;&lt;/i&gt;--&gt;\r\n&lt;div class=&quot;extra-wrap&quot;&gt;\r\n&lt;h3&gt;Our recognition&lt;/h3&gt;\r\n\r\n&lt;p&gt;We recognize the contribution of every Staff and Supplier in putting their good effort and quality time to make GIG a pleasant Company to work with.&lt;/p&gt;\r\n\r\n&lt;p&gt;We hope to be of service to you, and welcome your enquiry. We want our Customers to feel at ease and free of obligation even if many enquiries resulted in zero sales. Finally, we are thankful to be blessed with good resources to be able to continue through this business in good and difficult times over the years.&lt;/p&gt;\r\n&lt;/div&gt;\r\n&lt;/div&gt;\r\n\r\n&lt;div class=&quot;about-ouner&quot;&gt;\r\n&lt;p&gt;Warmest Regards&lt;/p&gt;\r\n\r\n&lt;p&gt;GIG Management &amp;amp; Staffs&lt;/p&gt;\r\n&lt;/div&gt;\r\n'),
 (4, 1, 'About GIG', '&lt;div class=&quot;about-page&quot;&gt;&lt;!--&lt;i class=&quot;fa fa-thumbs-up&quot;&gt;&amp;nbsp;&lt;/i&gt;--&gt;\r\n&lt;div class=&quot;extra-wrap&quot;&gt;\r\n&lt;h3&gt;About GIG&lt;/h3&gt;\r\n\r\n&lt;p&gt;GIG provides a wide range of printing services, 95% of anything paper, with the exception of Label Stickers. Over the years GIG has acquired the know-how in its business to deliver quality products, savings and good services to its Customers.&lt;/p&gt;\r\n\r\n&lt;p&gt;GIG&amp;#39;s operators have some 40 years of experience to take on specialized job. GIG continues to integrate more print -related business into its division to give its Customer the benefit of convenience, lower cost, quality and quicker response time.&lt;/p&gt;\r\n\r\n&lt;p&gt;Our business is processed to customize to our Client&amp;#39;s needs with patience. Assist Customer, some from an idea to product completion in timely delivery. GIG endeavours to make job completed easy and comfortable for our clients.&lt;/p&gt;\r\n\r\n&lt;p&gt;GIG operates from Singapore, Malaysia and neighbouring countries to maximize the potential of each of its machineries capabilities and on the other hand, manages overall overheads to produce optimum quality and prices. We aim and seek a good combination for our Customers, Ourselves and Suppliers.&lt;/p&gt;\r\n&lt;/div&gt;\r\n&lt;/div&gt;\r\n\r\n&lt;div class=&quot;about-page&quot;&gt;&lt;!--&lt;i class=&quot;fa fa-clock-o&quot;&gt;&amp;nbsp;&lt;/i&gt;--&gt;\r\n&lt;div class=&quot;extra-wrap&quot;&gt;\r\n&lt;h3&gt;Good news&lt;/h3&gt;\r\n\r\n&lt;p&gt;GIG thanks all its Customers for their continual support over the years. GIG will like to thank its Customers by translating those savings into vouchers usable at NTUC, Shell Petrol Station, Jack&amp;#39;s Place and Metro.&lt;/p&gt;\r\n\r\n&lt;p&gt;To know more of free gifts, please log on to gig.sgfireegift.htm&lt;/p&gt;\r\n&lt;/div&gt;\r\n&lt;/div&gt;\r\n\r\n&lt;div class=&quot;about-page&quot;&gt;&lt;!--&lt;i class=&quot;fa fa-gift&quot;&gt;&amp;nbsp;&lt;/i&gt;--&gt;\r\n&lt;div class=&quot;extra-wrap&quot;&gt;\r\n&lt;h3&gt;Our belief&lt;/h3&gt;\r\n\r\n&lt;p&gt;Private &amp;amp; Confidential Policy&lt;/p&gt;\r\n\r\n&lt;p&gt;Information collected from Customer is regarded with strict confidential and will not in any way disclose to another party unless instructed by the Customer. GIG, to its best of knowledge will not compromise material quality &amp;amp; cost to the detriment of the Users&lt;/p&gt;\r\n&lt;/div&gt;\r\n&lt;/div&gt;\r\n\r\n&lt;div class=&quot;about-page&quot;&gt;&lt;!--&lt;i class=&quot;fa fa-refresh&quot;&gt;&amp;nbsp;&lt;/i&gt;--&gt;\r\n&lt;div class=&quot;extra-wrap&quot;&gt;\r\n&lt;h3&gt;Our recognition&lt;/h3&gt;\r\n\r\n&lt;p&gt;We recognize the contribution of every Staff and Supplier in putting their good effort and quality time to make GIG a pleasant Company to work with.&lt;/p&gt;\r\n\r\n&lt;p&gt;We hope to be of service to you, and welcome your enquiry. We want our Customers to feel at ease and free of obligation even if many enquiries resulted in zero sales. Finally, we are thankful to be blessed with good resources to be able to continue through this business in good and difficult times over the years.&lt;/p&gt;\r\n&lt;/div&gt;\r\n&lt;/div&gt;\r\n\r\n&lt;div class=&quot;about-ouner&quot;&gt;\r\n&lt;p&gt;Warmest Regards&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;b&gt;GIG Management &amp;amp; Staffs&lt;/b&gt;&lt;/p&gt;\r\n&lt;/div&gt;\r\n'),
 (7, 2, 'Monthly Promotions', 'Monthly Promotions'),
-(7, 3, 'Monthly Promotions', 'Monthly Promotions');
+(7, 3, 'Monthly Promotions', 'Monthly Promotions'),
+(8, 1, 'sggsdfs', 'fsdfsfsfsdf');
 
 -- --------------------------------------------------------
 
@@ -1585,6 +1582,13 @@ CREATE TABLE IF NOT EXISTS `information_to_layout` (
   `layout_id` int(11) NOT NULL,
   PRIMARY KEY (`information_id`,`store_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `information_to_layout`
+--
+
+INSERT INTO `information_to_layout` (`information_id`, `store_id`, `layout_id`) VALUES
+(8, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -1607,7 +1611,8 @@ INSERT INTO `information_to_store` (`information_id`, `store_id`) VALUES
 (4, 0),
 (5, 0),
 (6, 0),
-(7, 0);
+(7, 0),
+(8, 0);
 
 -- --------------------------------------------------------
 
@@ -1634,9 +1639,7 @@ CREATE TABLE IF NOT EXISTS `language` (
 --
 
 INSERT INTO `language` (`language_id`, `name`, `code`, `locale`, `image`, `directory`, `filename`, `sort_order`, `status`) VALUES
-(1, 'English', 'en', 'en_US.UTF-8,en_US,en-gb,english', 'gb.png', 'english', 'english', 1, 1),
-(2, 'German', 'de', 'de_DE.UTF-8,de_DE,de-de,german', 'de.png', 'german', 'german', 2, 1),
-(3, 'Spanish', 'es', 'es_ES.UTF-8,es_ES,es_es,Español', 'es.png', 'spanish', 'spanish', 3, 1);
+(1, 'English', 'en', 'en_US.UTF-8,en_US,en-gb,english', 'gb.png', 'english', 'english', 1, 1);
 
 -- --------------------------------------------------------
 
@@ -2710,7 +2713,7 @@ INSERT INTO `product` (`product_id`, `model`, `sku`, `upc`, `ean`, `jan`, `isbn`
 (35, 'Product 8', '', '', '', '', '', '', '', 1000, 5, 'data/Big-Love-Agency-cards1.png', 12, 0, 20.4200, 0, 9, '2009-02-03', 5.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 0, 1, '2009-02-03 18:08:31', '2014-10-27 16:36:56', 0),
 (36, 'Product 9', '', '', '', '', '', '', '', 978, 6, 'data/SR-Designer-cards1.png', 11, 0, 11.9100, 100, 9, '2009-02-03', 5.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 2, 1, 1, 0, 1, '2009-02-03 18:09:19', '2014-10-27 16:54:20', 2),
 (40, 'product 11', '', '', '', '', '', '', '', 967, 5, 'data/Sarah-media-cards1.png', 8, 1, 13.0000, 0, 9, '2009-02-03', 10.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 0, 1, '2009-02-03 21:07:12', '2015-01-25 15:46:38', 8),
-(41, 'Product 14', '', '', '', '', '', '', '', 977, 5, 'data/Kasikorn-PVC-Special-Card1.png', 8, 1, 20.0000, 0, 9, '2009-02-03', 5.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 0, 1, '2009-02-03 21:07:26', '2014-10-27 16:51:37', 1),
+(41, 'Product 14', '', '', '', '', '', '', '', 977, 5, 'data/Kasikorn-PVC-Special-Card1.png', 8, 1, 20.0000, 0, 9, '2009-02-03', 5.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 0, 1, '2009-02-03 21:07:26', '2014-10-27 16:51:37', 2),
 (42, 'Product 15', '', '', '', '', '', '', '', 986, 5, 'data/Orient-1.png', 8, 1, 15.0000, 400, 9, '2009-02-04', 12.50000000, 1, 1.00000000, 2.00000000, 3.00000000, 1, 1, 2, 0, 1, '2009-02-03 21:07:37', '2014-10-27 16:52:47', 1),
 (43, 'Product 16', '', '', '', '', '', '', '', 899, 6, 'data/Designer-DR-cards1.png', 8, 0, 10.0000, 0, 9, '2009-02-03', 0.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 2, 1, 1, 0, 1, '2009-02-03 21:07:49', '2015-03-07 17:22:41', 0),
 (44, 'Product 17', '', '', '', '', '', '', '', 998, 5, 'data/Designer-cards1.png', 12, 1, 10.0000, 0, 9, '2009-02-03', 0.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 2, 1, 1, 0, 1, '2009-02-03 21:08:00', '2015-01-23 11:23:06', 22),
@@ -2720,7 +2723,7 @@ INSERT INTO `product` (`product_id`, `model`, `sku`, `upc`, `ean`, `jan`, `isbn`
 (48, 'product 20', 'test 1', '', '', '', '', '', 'test 2', 994, 5, 'data/Whip-Cream-PVC-gold-foil1.png', 8, 1, 4.0000, 0, 9, '2009-02-08', 1.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 2, 1, 1, 0, 1, '2009-02-08 17:21:51', '2015-01-23 11:25:20', 1),
 (49, 'Product 5', '', '', '', '', '', '', '', 993, 8, 'data/Gist-1.png', 0, 1, 12.0000, 0, 9, '2011-04-25', 0.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 1, 1, '2011-04-26 08:57:34', '2014-10-27 16:50:02', 3),
 (50, '123', '12', '', '', '', '', '', '', 1, 7, 'data/img_service.png', 0, 1, 145.0000, 0, 0, '2015-02-07', 0.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 1, 1, '2015-02-08 11:04:10', '2015-03-20 09:01:54', 3),
-(51, 'abc', '', '', '', '', '', '', '', 1, 7, 'data/Elemental-cards1.png', 0, 1, 435.0000, 0, 0, '2015-03-15', 0.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 1, 1, '2015-03-16 17:16:41', '2015-03-16 17:19:54', 4);
+(51, 'abc', '', '', '', '', '', '', '', 1, 7, 'data/Elemental-cards1.png', 0, 1, 435.0000, 0, 0, '2015-03-15', 0.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 1, 1, '2015-03-16 17:16:41', '2015-03-16 17:19:54', 5);
 
 -- --------------------------------------------------------
 
