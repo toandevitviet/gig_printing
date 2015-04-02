@@ -8392,3 +8392,6 @@
 2015-03-20 4:48:27 - PHP Notice:  Undefined variable: text_feedback in D:\xampp\htdocs\gig_printing\catalog\view\theme\theme483\template\module\information.tpl on line 16
 2015-03-20 5:48:35 - PHP Notice:  Undefined variable: attribute_row in D:\xampp\htdocs\gig_printing\admin\view\template\catalog\product_form.tpl on line 903
 2015-03-20 5:48:35 - PHP Notice:  Undefined variable: special_row in D:\xampp\htdocs\gig_printing\admin\view\template\catalog\product_form.tpl on line 1169
+2015-04-02 17:55:18 - PHP Notice:  Undefined variable: attribute_row in E:\DATA\WEB\Run\htdocs\gig_printing\admin\view\template\catalog\product_form.tpl on line 903
+2015-04-02 17:55:18 - PHP Notice:  Undefined variable: special_row in E:\DATA\WEB\Run\htdocs\gig_printing\admin\view\template\catalog\product_form.tpl on line 1169
+2015-04-02 18:11:27 - PHP Notice:  Undefined variable: text_feedback in E:\DATA\WEB\Run\htdocs\gig_printing\catalog\view\theme\theme483\template\module\information.tpl on line 16
