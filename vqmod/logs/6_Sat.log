@@ -1,0 +1,255 @@
+---------- Date: 2015-04-04 05:00:37 ~ IP : ::1 ----------
+REQUEST URI : /gig_printing/
+MOD DETAILS:
+   modFile   : E:\DATA\WEB\Run\htdocs\gig_printing\vqmod/xml/watermark.xml
+   id        : Add watermark on all images at upload via filemanager
+   version   : 1.1.0
+   vqmver    : 2.0.0
+   author    : Gabriel Fratica
+
+File Name    : system/library/image.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $watermark = $this->create($file);
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-04-04 05:00:37 ~ IP : ::1 ----------
+REQUEST URI : /gig_printing/
+MOD DETAILS:
+   modFile   : E:\DATA\WEB\Run\htdocs\gig_printing\vqmod/xml/watermark.xml
+   id        : Add watermark on all images at upload via filemanager
+   version   : 1.1.0
+   vqmver    : 2.0.0
+   author    : Gabriel Fratica
+
+File Name    : system/library/image.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $watermark = $this->create($file);
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-04-04 05:00:41 ~ IP : ::1 ----------
+REQUEST URI : /gig_printing/index.php?route=product/product&amp;product_id=41
+MOD DETAILS:
+   modFile   : E:\DATA\WEB\Run\htdocs\gig_printing\vqmod/xml/watermark.xml
+   id        : Add watermark on all images at upload via filemanager
+   version   : 1.1.0
+   vqmver    : 2.0.0
+   author    : Gabriel Fratica
+
+File Name    : system/library/image.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $watermark = $this->create($file);
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-04-04 05:00:41 ~ IP : ::1 ----------
+REQUEST URI : /gig_printing/index.php?route=common/home
+MOD DETAILS:
+   modFile   : E:\DATA\WEB\Run\htdocs\gig_printing\vqmod/xml/watermark.xml
+   id        : Add watermark on all images at upload via filemanager
+   version   : 1.1.0
+   vqmver    : 2.0.0
+   author    : Gabriel Fratica
+
+File Name    : system/library/image.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $watermark = $this->create($file);
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-04-04 05:00:57 ~ IP : ::1 ----------
+REQUEST URI : /gig_printing/index.php?route=common/home
+MOD DETAILS:
+   modFile   : E:\DATA\WEB\Run\htdocs\gig_printing\vqmod/xml/watermark.xml
+   id        : Add watermark on all images at upload via filemanager
+   version   : 1.1.0
+   vqmver    : 2.0.0
+   author    : Gabriel Fratica
+
+File Name    : system/library/image.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $watermark = $this->create($file);
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-04-04 05:01:06 ~ IP : ::1 ----------
+REQUEST URI : /gig_printing/index.php?route=product/product&amp;product_id=41
+MOD DETAILS:
+   modFile   : E:\DATA\WEB\Run\htdocs\gig_printing\vqmod/xml/watermark.xml
+   id        : Add watermark on all images at upload via filemanager
+   version   : 1.1.0
+   vqmver    : 2.0.0
+   author    : Gabriel Fratica
+
+File Name    : system/library/image.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $watermark = $this->create($file);
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-04-04 05:01:26 ~ IP : ::1 ----------
+REQUEST URI : /gig_printing/index.php?route=product/category&amp;path=70
+MOD DETAILS:
+   modFile   : E:\DATA\WEB\Run\htdocs\gig_printing\vqmod/xml/watermark.xml
+   id        : Add watermark on all images at upload via filemanager
+   version   : 1.1.0
+   vqmver    : 2.0.0
+   author    : Gabriel Fratica
+
+File Name    : system/library/image.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $watermark = $this->create($file);
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-04-04 05:01:31 ~ IP : ::1 ----------
+REQUEST URI : /gig_printing/index.php?route=product/gift&amp;path=70&amp;product_id=10
+MOD DETAILS:
+   modFile   : E:\DATA\WEB\Run\htdocs\gig_printing\vqmod/xml/watermark.xml
+   id        : Add watermark on all images at upload via filemanager
+   version   : 1.1.0
+   vqmver    : 2.0.0
+   author    : Gabriel Fratica
+
+File Name    : system/library/image.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $watermark = $this->create($file);
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-04-04 05:01:37 ~ IP : ::1 ----------
+REQUEST URI : /gig_printing/index.php?route=common/home
+MOD DETAILS:
+   modFile   : E:\DATA\WEB\Run\htdocs\gig_printing\vqmod/xml/watermark.xml
+   id        : Add watermark on all images at upload via filemanager
+   version   : 1.1.0
+   vqmver    : 2.0.0
+   author    : Gabriel Fratica
+
+File Name    : system/library/image.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $watermark = $this->create($file);
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-04-04 05:01:43 ~ IP : ::1 ----------
+REQUEST URI : /gig_printing/
+MOD DETAILS:
+   modFile   : E:\DATA\WEB\Run\htdocs\gig_printing\vqmod/xml/watermark.xml
+   id        : Add watermark on all images at upload via filemanager
+   version   : 1.1.0
+   vqmver    : 2.0.0
+   author    : Gabriel Fratica
+
+File Name    : system/library/image.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $watermark = $this->create($file);
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-04-04 05:01:49 ~ IP : ::1 ----------
+REQUEST URI : /gig_printing/index.php?route=product/category&amp;path=109
+MOD DETAILS:
+   modFile   : E:\DATA\WEB\Run\htdocs\gig_printing\vqmod/xml/watermark.xml
+   id        : Add watermark on all images at upload via filemanager
+   version   : 1.1.0
+   vqmver    : 2.0.0
+   author    : Gabriel Fratica
+
+File Name    : system/library/image.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $watermark = $this->create($file);
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-04-04 05:05:17 ~ IP : ::1 ----------
+REQUEST URI : /gig_printing/index.php?route=common/home
+MOD DETAILS:
+   modFile   : E:\DATA\WEB\Run\htdocs\gig_printing\vqmod/xml/watermark.xml
+   id        : Add watermark on product image
+   version   : 1.1.0
+   vqmver    : 2.0.0
+   author    : toanktv.it@gmail.com
+
+File Name    : catalog/model/tool/image.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): public function resize($filename, $width, $height) {
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-04-04 05:05:31 ~ IP : ::1 ----------
+REQUEST URI : /gig_printing/index.php?route=common/home
+MOD DETAILS:
+   modFile   : E:\DATA\WEB\Run\htdocs\gig_printing\vqmod/xml/watermark.xml
+   id        : Add watermark on product image
+   version   : 1.1.0
+   vqmver    : 2.0.0
+   author    : toanktv.it@gmail.com
+
+File Name    : catalog/model/tool/image.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): public function resize($filename, $width, $height) {
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-04-04 05:05:48 ~ IP : ::1 ----------
+REQUEST URI : /gig_printing/index.php?route=product/product&amp;product_id=41
+MOD DETAILS:
+   modFile   : E:\DATA\WEB\Run\htdocs\gig_printing\vqmod/xml/watermark.xml
+   id        : Add watermark on product image
+   version   : 1.1.0
+   vqmver    : 2.0.0
+   author    : toanktv.it@gmail.com
+
+File Name    : catalog/controller/product/product.php(3)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): 'thumb' => $this->model_tool_image->resize($result['image'], $this->config->get('config_image_additional_width'), $this->config->get('config_image_additional_height'))
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-04-04 05:08:22 ~ IP : ::1 ----------
+REQUEST URI : /gig_printing/index.php?route=common/home
+MOD DETAILS:
+   modFile   : E:\DATA\WEB\Run\htdocs\gig_printing\vqmod/xml/watermark.xml
+   id        : Add watermark on product image
+   version   : 1.1.0
+   vqmver    : 2.0.0
+   author    : toanktv.it@gmail.com
+
+File Name    : catalog/model/tool/image.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): public function resize($filename, $width, $height) {
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-04-04 05:08:57 ~ IP : ::1 ----------
+REQUEST URI : /gig_printing/index.php?route=common/home
+MOD DETAILS:
+   modFile   : E:\DATA\WEB\Run\htdocs\gig_printing\vqmod/xml/watermark.xml
+   id        : Add watermark on product image
+   version   : 1.1.0
+   vqmver    : 2.0.0
+   author    : toanktv.it@gmail.com
+
+File Name    : system/library/image.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $watermark = $this->create($file);
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-04-04 05:09:45 ~ IP : ::1 ----------
+REQUEST URI : /gig_printing/index.php?route=product/product&amp;product_id=41
+MOD DETAILS:
+   modFile   : E:\DATA\WEB\Run\htdocs\gig_printing\vqmod/xml/watermark.xml
+   id        : Add watermark on product image
+   version   : 1.1.0
+   vqmver    : 2.0.0
+   author    : toanktv.it@gmail.com
+
+File Name    : catalog/controller/product/product.php(3)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): 'thumb' => $this->model_tool_image->resize($result['image'], $this->config->get('config_image_additional_width'), $this->config->get('config_image_additional_height'))
+
+----------------------------------------------------------------------
+
+

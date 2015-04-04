@@ -41,10 +41,10 @@ class ModelToolImage extends Model {
 			if ($width_orig != $width || $height_orig != $height) {
 				$image = new Image(DIR_IMAGE . $old_image);
 
-if ($width > 90 || $height > 90) {   
-   $image->watermark(DIR_IMAGE . 'watermark.png', 'center');
-}
-
+	if ($width > 90 || $height > 90) {   
+	   $image->watermark(DIR_IMAGE . 'watermark.png', 'center');
+	}
+	
 				$image->resize($width, $height, $type);
 				$image->save(DIR_IMAGE . $new_image);
 			} else {

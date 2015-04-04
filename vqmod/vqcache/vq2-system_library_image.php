@@ -104,9 +104,7 @@ class Image {
 	}
 
 	public function watermark($file, $position = 'bottomright') {
-		
-$watermark = imagecreatefrompng($file);
-
+		$watermark = imagecreatefrompng($file);
 
 		$watermark_width = imagesx($watermark);
 		$watermark_height = imagesy($watermark);
@@ -125,20 +123,18 @@ $watermark = imagecreatefrompng($file);
 				$watermark_pos_y = $this->info['height'] - $watermark_height;
 				break;
 
-case 'center':
-            $watermark_pos_x = ($this->info['width']- $watermark_width)/2;
-            $watermark_pos_y = ($this->info['height']- $watermark_height)/2;
-            break;
-
+			case 'center':
+						$watermark_pos_x = ($this->info['width'])/3;
+						$watermark_pos_y = ($this->info['height'])/3;
+						break;
+			
 			case 'bottomright':
 				$watermark_pos_x = $this->info['width'] - $watermark_width;
 				$watermark_pos_y = $this->info['height'] - $watermark_height;
 				break;
 		}
 
-		
-imagecopy($this->image, $watermark, $watermark_pos_x, $watermark_pos_y, 0, 0, $watermark_width, $watermark_height);
-
+		imagecopy($this->image, $watermark, $watermark_pos_x, $watermark_pos_y, 0, 0, $watermark_width, $watermark_height);
 
 		imagedestroy($watermark);
 	}
