@@ -88,7 +88,7 @@
 
 							</div>
                             <div class="address-add">
-                                <p class="address">Blk 2023 Bukit Batok <br /> Industrial ParkA <br />Street 42, #04-84
+                                <p class="address"><?php echo $address; ?>
                             </div>
 						</div>
 					</div>

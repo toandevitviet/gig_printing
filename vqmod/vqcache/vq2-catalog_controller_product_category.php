@@ -19,7 +19,8 @@ class ControllerProductCategory extends Controller {
 
 		$this->data['categories'] = array();
 
-		$categories_custom = $this->model_catalog_category->getCategories(0);
+		$categories_custom = $this->model_catalog_category->getCategories();
+		//$categories_custom = $this->model_catalog_category->getCategories(0);
 		//echo '<pre>'; var_dump($categories_custom);die;
 
 		foreach ($categories_custom as $key => $_name) {

@@ -1637,7 +1637,7 @@
 					<div class="image"><a href="<?php echo $item['href']; ?>"><?php if ($item['image']) { ?><img id="img_<?php echo $item['category_id']; ?>" src=<?php HTTP_SERVER;?> "image/<?php echo $item['image']; ?>" title="<?php echo $item['name']; ?>" alt="<?php echo $item['name']; ?>" width="270" height="210" /><?php } else{ ?><img src="catalog/view/theme/theme483/image/no-image.png" alt="" /><?php } ?></a>
 					</div>	
 				 
-					<div class="name"><a href="<?php echo $item['href']; ?>"><?php echo $item['name']; ?></a></div>
+					<div class="name"><a href="<?php echo $item['href']; ?>"><?php echo substr($item['name'], 0, 40); ?></a></div>
 					<div class="description" style="display:none"></div>
 					<div class="description1" style="display:none"></div>
 					<div class="rating" style="display:none"></div>

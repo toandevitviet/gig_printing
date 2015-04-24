@@ -415,6 +415,9 @@ class ControllerCommonFileManager extends Controller {
 	}
 
 	public function upload() {
+
+			$this->load->model('tool/image');
+			
 		$this->language->load('common/filemanager');
 
 		$json = array();
@@ -433,7 +436,7 @@ class ControllerCommonFileManager extends Controller {
 					$json['error'] = $this->language->get('error_directory');
 				}
 
-				if ($this->request->files['image']['size'] > 2500000) {
+				if ($this->request->files['image']['size'] > 300000000) { //300000
 					$json['error'] = $this->language->get('error_file_size');
 				}
 
@@ -485,6 +488,11 @@ class ControllerCommonFileManager extends Controller {
 
 		if (!isset($json['error'])) {
 			if (@move_uploaded_file($this->request->files['image']['tmp_name'], $directory . '/' . $filename)) {
+
+			$image = new Image($directory . '/' . $filename);
+			$image->watermark(DIR_IMAGE . 'watermark.png', 'center');
+			$image->save($directory . '/' . $filename);		
+			
 				$json['success'] = $this->language->get('text_uploaded');
 			} else {
 				$json['error'] = $this->language->get('error_uploaded');

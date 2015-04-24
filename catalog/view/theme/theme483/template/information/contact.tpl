@@ -36,7 +36,8 @@
 			</div>
 			<div class="map-content col-sm-6">         
 				<figure>
-				<iframe width="100%" height="200px"  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3988.7354239402207!2d103.860624!3d1.334948!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da177a6c9cd785%3A0xe1d27edd89ec6bec!2sGig+Printing+Co+Pte.+Ltd.!5e0!3m2!1sen!2ssg!4v1422514359976" width="600" height="450" frameborder="0" style="border:0"></iframe>
+				<!-- <iframe width="100%" height="200px"  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3988.7354239402207!2d103.860624!3d1.334948!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da177a6c9cd785%3A0xe1d27edd89ec6bec!2sGig+Printing+Co+Pte.+Ltd.!5e0!3m2!1sen!2ssg!4v1422514359976" width="600" height="450" frameborder="0" style="border:0"></iframe> -->
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63819.53347773014!2d103.75221699999999!3d1.3439061283403484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1014d3aa72bd%3A0x8c48080bc820126b!2sGig+Printing+Co+Pte+Ltd!5e0!3m2!1sen!2ssg!4v1429506088617" width="100%" height="200px" frameborder="0" style="border:0"></iframe>
 				</figure>
 			</div>
 		</div>

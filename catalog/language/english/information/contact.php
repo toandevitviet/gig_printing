@@ -14,7 +14,7 @@ $_['text_message']   = '<p>Your enquiry has been successfully sent to the store 
 // Entry Fields
 $_['entry_name']     = 'Name:';
 $_['entry_email']    = 'Email:';
-$_['entry_enquiry']  = 'MESSAGES:';
+$_['entry_enquiry']  = 'Messages:';//'MESSAGES:';
 $_['entry_tel']     = 'Tel:';
 $_['entry_company']     = 'Company name:';
 

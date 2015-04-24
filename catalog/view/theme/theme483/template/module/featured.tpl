@@ -2,7 +2,7 @@
 <!-- Add new block here -->
 <div class="box newquery">
   <div class="box-heading">
-    Submit your enquries here !
+    Submit your enquiries here !
   </div><!-- end box-heading --> 
   <div class="box-content">
         <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" id="contact_home"  class="contact-form row"  >

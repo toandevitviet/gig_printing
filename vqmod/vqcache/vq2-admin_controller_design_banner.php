@@ -195,6 +195,9 @@ class ControllerDesignBanner extends Controller {
             $this->data['entry_description'] = $this->language->get('entry_description');
             
 
+            $this->data['entry_description'] = $this->language->get('entry_description');
+            
+
 		$this->data['text_no_results'] = $this->language->get('text_no_results');
 
 		$this->data['column_name'] = $this->language->get('column_name');
@@ -266,6 +269,9 @@ class ControllerDesignBanner extends Controller {
 
 	protected function getForm() {
 		$this->data['heading_title'] = $this->language->get('heading_title');
+
+            $this->data['entry_description'] = $this->language->get('entry_description');
+            
 
             $this->data['entry_description'] = $this->language->get('entry_description');
             
@@ -392,6 +398,9 @@ class ControllerDesignBanner extends Controller {
 			}			
 
 			$this->data['banner_images'][] = array(
+
+			'description'			   => $banner_image['description'],
+            
 
 				'description'			   => $banner_image['description'],
             

@@ -5166,3 +5166,11 @@ img#image4_calendar {
 .ecom-cate{
 	color: #000;
 }
+.product-grid .image {
+  min-height: 195px;
+  max-height: 195px;
+}
+.product-grid .name {
+  min-height: 40px;
+  max-height: 40px;
+}
