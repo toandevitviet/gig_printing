@@ -1,0 +1,15 @@
+---------- Date: 2015-04-28 03:17:53 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /gig_printing/index.php?route=product/category&amp;path=59
+MOD DETAILS:
+   modFile   : D:\xampp\htdocs\gig_printing\vqmod/xml/oc_watermark_on_all_images_uploadssss.xml
+   id        : Add watermark on all images at upload via filemanager
+   version   : 1.1.0
+   vqmver    : 2.0.0
+   author    : toanktv.it@gmail.com
+
+File Name    : system/library/image.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $watermark = $this->create($file);
+
+----------------------------------------------------------------------
+
+
