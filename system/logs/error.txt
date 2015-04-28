@@ -8642,3 +8642,9 @@
 2015-04-24 7:56:52 - PHP Warning:  Class __PHP_Incomplete_Class has no unserializer in D:\xampp\htdocs\gig_printing\system\library\session.php on line 12
 2015-04-24 7:56:52 - PHP Warning:  Class __PHP_Incomplete_Class has no unserializer in D:\xampp\htdocs\gig_printing\system\library\session.php on line 12
 2015-04-24 8:05:59 - PHP Notice:  Undefined variable: text_feedback in D:\xampp\htdocs\gig_printing\catalog\view\theme\theme483\template\module\information.tpl on line 16
+2015-04-24 12:18:26 - PHP Warning:  Class __PHP_Incomplete_Class has no unserializer in D:\xampp\htdocs\gig_printing\system\library\session.php on line 12
+2015-04-24 12:18:26 - PHP Warning:  Class __PHP_Incomplete_Class has no unserializer in D:\xampp\htdocs\gig_printing\system\library\session.php on line 12
+2015-04-24 13:31:54 - PHP Warning:  Class __PHP_Incomplete_Class has no unserializer in D:\xampp\htdocs\gig_printing\system\library\session.php on line 12
+2015-04-24 13:31:54 - PHP Warning:  Class __PHP_Incomplete_Class has no unserializer in D:\xampp\htdocs\gig_printing\system\library\session.php on line 12
+2015-04-24 13:31:54 - PHP Warning:  Class __PHP_Incomplete_Class has no unserializer in D:\xampp\htdocs\gig_printing\system\library\session.php on line 12
+2015-04-24 13:37:03 - a:9:{s:9:"TIMESTAMP";s:20:"2015-04-24T11:37:57Z";s:13:"CORRELATIONID";s:13:"abd93975e7e71";s:3:"ACK";s:7:"Failure";s:7:"VERSION";s:4:"65.2";s:5:"BUILD";s:8:"16408275";s:12:"L_ERRORCODE0";s:5:"10002";s:15:"L_SHORTMESSAGE0";s:14:"Security error";s:14:"L_LONGMESSAGE0";s:28:"Security header is not valid";s:15:"L_SEVERITYCODE0";s:5:"Error";}
